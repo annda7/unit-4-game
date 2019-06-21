@@ -1,0 +1,90 @@
+
+body{
+	background: url("../images/original.gif") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.header {
+	font-family: 'Monoton', cursive;
+	font-size: 60px;
+}
+div{
+	border: solid 2px rgb(146, 197, 231);
+	background-color: white;
+	margin: 10px;
+	position: relative;
+	width: 60%;
+	padding: 10px;
+}
+
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+
+
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header, div.gems{
+	background-color: #8fbfdf;
+}
+div.header, div.instructions{
+	width: 80%;
+}
+
+
+.numberToGet, .winsAndLosses{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 30px;
+	width: 23%;
+	text-align: left;
+	height: 60px;
+
+}
+.userTotal{
+	font-weight: bold;
+	width: 24%;
+	font-size: 20px;
+	text-align: left;
+	display: inline-block;
+	height: 60px;
+}
+.gems{
+	width:80%;
+	clear: both;
+		
+}
+.gemImage{
+	height: 100px;
+	margin: 10px;
+	float: center;
+}
+
+/* IDs */
+#blue{
+	color: #3092c7;
+	font-family: 'Monoton', cursive;
+}
+#green{
+	color: #00aa59;
+	font-family: 'Monoton', cursive;
+}
+#red{
+	color: #ec4b5f;
+	font-family: 'Monoton', cursive;
+}
+#yellow{
+	color: #ffc225;
+	font-family: 'Monoton', cursive;
+}
